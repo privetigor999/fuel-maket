@@ -46,7 +46,7 @@ const Advantage = () => {
       <div className={styles.mainBlock}>
         {items.map((item) => (
           <div className={styles.itemBlock} key={item.id}>
-            <img className={styles.img} src={item.img} />
+            <img className={styles.img} src={item.img} alt="logo" />
             <div className={styles.infoBlock}>
               <p className={styles.title}>{item.title}</p>
               <p className={styles.descr}>

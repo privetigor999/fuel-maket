@@ -16,14 +16,22 @@ const Quality = () => {
             <img
               src={arrow}
               alt="arrow"
-              style={{ transform: "rotate(90deg)" }}
+              style={{
+                transform: "rotate(90deg)",
+                width: "10px",
+                height: "10px",
+              }}
             />
           </button>
           <button>
             <img
               src={arrow}
               alt="arrow"
-              style={{ transform: "rotate(-90deg)" }}
+              style={{
+                transform: "rotate(-90deg)",
+                width: "10px",
+                height: "10px",
+              }}
             />
           </button>
         </div>
@@ -32,7 +40,7 @@ const Quality = () => {
       <div className={styles.blocks}>
         {degrees.map((degree) => (
           <div className={styles.block} key={Math.random()}>
-            <img src={degree} alt="degree" />
+            <img src={degree} alt="degree" className={styles.svg} />
           </div>
         ))}
       </div>

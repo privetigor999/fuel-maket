@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className={styles.container}>
       <div className={styles.leftBlock}>
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" style={{ width: "220px", height: "44px" }} />
         <p>© 2019 ООО"Процессинг 24"</p>
       </div>
       <div className={styles.navlist}>
