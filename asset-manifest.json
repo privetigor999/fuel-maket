@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fuel-maket/static/css/main.5c82a94b.css",
-    "main.js": "/fuel-maket/static/js/main.53d18eb7.js",
+    "main.css": "/fuel-maket/static/css/main.d93488c6.css",
+    "main.js": "/fuel-maket/static/js/main.3c138e7d.js",
     "static/media/1.svg": "/fuel-maket/static/media/1.b4825d065fe23baeb279ca59bb3cde72.svg",
     "static/media/2.svg": "/fuel-maket/static/media/2.da0f35569626629d9d3cbab72e80c1df.svg",
     "static/media/4.svg": "/fuel-maket/static/media/4.0929dfd6c7c242bf0c847e9bddce9ed1.svg",
@@ -20,11 +20,11 @@
     "static/media/user.svg": "/fuel-maket/static/media/user.9e6d5344383594eb4637fcb6a643f5b8.svg",
     "static/media/phone.svg": "/fuel-maket/static/media/phone.0978183ba65f4e60ba81d8bb2c7eca13.svg",
     "static/media/arrow.svg": "/fuel-maket/static/media/arrow.e9c4a10c5671045d58e3f1138b9680f2.svg",
-    "main.5c82a94b.css.map": "/fuel-maket/static/css/main.5c82a94b.css.map",
-    "main.53d18eb7.js.map": "/fuel-maket/static/js/main.53d18eb7.js.map"
+    "main.d93488c6.css.map": "/fuel-maket/static/css/main.d93488c6.css.map",
+    "main.3c138e7d.js.map": "/fuel-maket/static/js/main.3c138e7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c82a94b.css",
-    "static/js/main.53d18eb7.js"
+    "static/css/main.d93488c6.css",
+    "static/js/main.3c138e7d.js"
   ]
 }
