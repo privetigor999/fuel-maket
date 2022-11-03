@@ -1,0 +1,77 @@
+.container {
+  width: 1440px;
+  height: 720px;
+  padding: 0 160px;
+  background-color: var(--bg-gray);
+  position: relative;
+
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 86px;
+  }
+
+  .reviews {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 54px;
+    .review {
+      width: 545px;
+      height: 368px;
+      padding: 40px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      background-color: var(--main-white);
+      .aboutUser {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        b {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 18px;
+        }
+        .employee {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 15px;
+        }
+      }
+
+      .rev {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+      }
+      .info {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        color: var(--main-blue);
+        cursor: pointer;
+      }
+    }
+  }
+  button {
+    color: var(--main-white);
+    background-color: var(--main-blue);
+    position: absolute;
+    width: 258px;
+    height: 46px;
+    left: 586px;
+    top: 596px;
+    border: none;
+    cursor: pointer;
+  }
+}

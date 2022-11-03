@@ -1,0 +1,45 @@
+.container {
+  height: 200px;
+  width: 1440px;
+  padding: 40px 160px;
+  background-color: var(--bg-gray);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .leftBlock {
+    p {
+      margin-top: 10px;
+      color: var(--main-gray);
+      font-weight: 400;
+    }
+  }
+  .navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    .leftNav {
+      margin-right: 30px;
+    }
+    .rightNav,
+    .leftNav {
+      color: var(--main-gray);
+      cursor: pointer;
+    }
+  }
+  .rightBlock {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    b {
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    p {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--main-blue);
+      cursor: pointer;
+    }
+  }
+}

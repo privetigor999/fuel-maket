@@ -1,0 +1,51 @@
+.headerInfoContainer {
+  width: 1120px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .rightBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    .phoneBlock {
+      display: flex;
+      align-items: center;
+      margin-right: 35px;
+      cursor: pointer;
+      .phoneSvg {
+        width: 16px;
+        height: 16px;
+        margin-right: 13px;
+      }
+      p {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+    .button {
+      width: 176px;
+      height: 46px;
+      background-color: var(--main-blue);
+      color: var(--main-white);
+      font-size: 13px;
+      line-height: 16px;
+      text-align: center;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .userLogo {
+        width: 13px;
+        height: 15px;
+        margin-right: 13px;
+      }
+    }
+  }
+}
